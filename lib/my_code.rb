@@ -35,6 +35,7 @@ end
 
 def reduce_to_total(source_array, starting_point)
 source_array[starting_point]=source_array[starting_point]
+return source_array
 end
 
 def reduce_to_all_true(source_array)
